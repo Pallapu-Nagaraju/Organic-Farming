@@ -10,14 +10,25 @@ header {
     background-color: #3A7D34; 
     color: #fff;
     padding: 20px;
-    display: flex;
+    display: flex; /* Restored flex display */
     justify-content: space-between;
     align-items: center;
+    position: relative; /* Added for absolute positioning of back link */
+}
+
+/* New style for back link */
+.back-link {
+    position: absolute;
+    left: 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
 header h1 {
+    width: 100%;
     text-align: center;
-    flex-grow: 1;
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
