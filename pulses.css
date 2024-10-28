@@ -5,6 +5,11 @@ header {
     align-items: center;  
     background-size: cover;
     background-color: #2b2b2b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 
 }  
 nav {  
@@ -24,7 +29,9 @@ nav a{
 .contact-info {  
     text-align: right;  
 }
-
+body{
+    padding-top: 80px;
+}
 
 
 .hero-image {
