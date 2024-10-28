@@ -1,3 +1,15 @@
+ body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 80px;
+}
+
+.main-content {
+    flex: 1;
+}
+
 header {  
     padding: 20px;  
     display: flex;  
@@ -13,31 +25,26 @@ header {
 
 
 }  
+
 nav {  
     display: flex;  
     gap: 70px;  
-
-   
 }  
+
 nav a{
     text-decoration: none;
     color: wheat;
 }
+
 .logo {  
     font-size: 24px;  
     font-weight: bold;  
     color: #4CAF50;  
 }  
+
 .contact-info {  
     text-align: right;  
 }
-
-
-
-
-
-
-
 
 .cent{
     font-family: Arial, sans-serif;
@@ -48,6 +55,9 @@ nav a{
     color: #333;
 }
 
+.intro-text {
+    margin-bottom: 30px;
+}
 
 h1 {
     color: #1a1a1a;
@@ -67,6 +77,14 @@ h1 {
     border-radius: 5px;
 }
 
+.featured-image2{
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
 .image-caption {
     font-style: italic;
     color: #666;
@@ -78,6 +96,57 @@ h1 {
     margin-top: 30px;
 }
 
+.crop-gallery {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+    margin-bottom: 40px; /* Add space before social bar */
+}
+
+.crop-item {
+    flex: 0 0 auto;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.crop-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.crop-item p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.crop-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery-nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery-nav span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+}
+
+.gallery-nav span.active {
+    background-color: #006400;
+}
 
 
 
