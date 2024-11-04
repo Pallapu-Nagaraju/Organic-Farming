@@ -71,7 +71,7 @@ nav a {
     font-weight: bold;
 }
 
-h1 {
+h2 {
     color: #2B5B4B;
     font-size: 50px;
     margin-left: 2%;
@@ -81,7 +81,15 @@ h1 {
     margin: 2rem auto;
     padding: 2%;
 }
-
+h1 {
+    color: #1a1a1a;
+    font-size: 24px;
+    border-left: 4px solid #0066cc;
+    padding-left: 15px;
+    margin: 30px 0;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
 .crop-gallery {
     display: flex;
     gap: 20px;
@@ -130,4 +138,8 @@ h1 {
 
 body {
     margin-top: 80px; 
+}
+
+p{
+    font-size: 22px;
 }
